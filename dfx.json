@@ -1,0 +1,28 @@
+{
+  "canisters": {
+    "sparklearn_quiz_backend": {
+      "main": "src/sparklearn_quiz_backend/main.mo",
+      "type": "motoko"
+    },
+    "sparklearn_quiz_frontend": {
+      "dependencies": [
+        "sparklearn_quiz_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/sparklearn_quiz_frontend/src/index.html"
+      },
+      "source": [
+        "src/sparklearn_quiz_frontend/assets",
+        "dist/sparklearn_quiz_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "version": 1
+}
