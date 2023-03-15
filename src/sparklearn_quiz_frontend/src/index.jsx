@@ -246,8 +246,9 @@ const App = () => {
               }}
             >
               <h1>
-                20,000 SRK TOKEN GRAND PRIZE | 20,000 SRK TOKEN GRAND PRIZE |
-                20,000 SRK TOKEN GRAND PRIZE | 20,000 SRK TOKEN&nbsp;
+                | 100% Decentralized | React | Motoko | Internet Computer | DFinity
+                | 100% Decentralized | React | Motoko | Internet Computer | DFinity
+                | 100% Decentralized | React | Motoko | Internet Computer | DFinity
               </h1>
             </Marquee>
           </div>
